@@ -1,0 +1,266 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+}
+
+/*global*/
+.container
+{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	color: white;
+}
+
+.container div{
+	text-align: center;
+}
+
+.container2 form{
+	border-radius: 10px;
+	color: white;
+	margin: 20px;
+	text-align: center;
+	border: 3px double red;
+	width: 500px;
+	margin-left: 400px;
+}
+
+.container2 form input{
+	border-radius: 5px;
+	width: 300px;
+	font-size:medium;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 2px solid red;
+}
+
+.container2 form label{
+	margin-top: 30px;
+	font-size: larger;
+	font-weight: 500;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+.button_1{
+	height: 38px;
+	border: none;
+	background: red;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	font-weight: bold;	
+	border-radius: 5px;
+}
+
+button:hover{
+	opacity: 0.7;
+}
+
+/*header*/
+header{
+	background:black;
+	color: white;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: red 3px solid;
+	background-blend-mode: luminosity;
+
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+header .container ul li{
+	float: left;
+	list-style: none;
+	padding: 0 20px 0 20px;
+}
+
+header .container ul ul li{
+	padding: 10px 0px 0px 0px;
+	list-style: none;
+	float: none;
+}
+
+header .container ul ul li a:hover{
+	color: black;
+}
+
+header .container ul ul{
+	font-weight: bold;
+	position: absolute;
+	background-color: red;
+	width: 100px;
+	padding: 10px 20px 10px 20px;
+	display: none;
+}
+
+header .container ul li:hover > ul{
+	display: block;
+}
+
+header #WebpageName{
+	float: left;
+}
+
+header #WebpageName h1{
+	margin: 0;
+}
+
+header nav{
+	float:right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color: red;
+	font-weight: bold;
+} 
+
+header a:hover{
+	color: red;
+	font-size: large;
+	font-weight: bold;
+}
+
+/*Subscrition*/
+#Subscription{
+	border-top: red 3px solid;
+	background-color: black;
+	border-bottom: red 3px solid;
+}
+
+#Subscription h1{
+	float: left;
+	margin: auto;
+	margin-top: 10px;
+	margin-left: 150px;
+}
+
+#Subscription form{
+	float: right;
+	margin: auto;
+	margin-top: 7px;
+	margin-right: 150px;
+}
+
+#Subscription input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+/*Social*/
+#Social{
+	margin-top: 20px;
+}
+
+#Social .box{
+	margin: auto;
+	float: left;
+	width: 30%;
+	margin-bottom: 10px;
+}
+
+#Social .box a:hover{
+	color: red;
+	font-weight: bold;
+}
+
+/*Footer*/
+footer{
+	background-color: red;
+	padding-right: 10px;
+	float: right;
+	font-size: small;
+	color: black;
+}
+
+
+/*About*/
+#Main .container img{
+	float: left;
+	padding-right: 20px;
+}
+
+#Main .container{
+	text-align: center;
+}
+
+#Main .container a{
+	border-style: solid;
+	border-color: red;
+	padding: 10px;
+}
+
+#Main p{
+	font-size: 130%;	
+	text-align: justify;
+	border-style: double;
+	border-color: red;
+	padding: 20px 20px 20px 20px; 
+}
+
+#Main .box:hover{
+	color:red;
+	font-weight: bold;
+}
+
+#Main .container1{
+	
+	margin: auto;
+	width: 450px;
+}
+
+#Main .container1 label{
+	font-weight: bold;	
+	float: left;
+	font-size: large;
+	color: white;
+	background-color: black;
+}
+
+#Main .container1 input{	
+	padding: 4px 4px 4px 4px;
+	float: right;
+	font-size: large;
+	color: white;
+	background-color: black;
+	border-style: solid;
+	border-color: red;
+}
+
+#Main .container .container1 form{
+	border-style: double;
+	border-color: red;
+	padding: 20px;
+	text-align: center;
+}
+
+#Main .container .container1 h1{
+	text-align: center;
+	border-style: solid;
+	border-color: red;
+	background-color: red;
+	padding: 10px;
+}
+
+.container2 figure img{
+	margin-left: 30px;
+	width: 30%;	
+	float: left;
+}

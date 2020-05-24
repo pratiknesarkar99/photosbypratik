@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width" initial-scale="1.0">
+		<meta name="keywords" content="Pratik, Photos, Photographs, Images, Photos by Pratik">
+		<meta name="author" content="Pratik Nesarkar">
+		<title>Photos by Pratik: Admin Login</title>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" href="./css/sliderstyle.css">
+        
+        <style>
+            /* Width on Smaller Screens */
+			@media only screen and (max-width: 600px){
+            
+            #h {
+                width: 54%;
+                height:30px;
+            }
+            
+			#o {
+                text-align: center;
+				width: 50%;
+			}
+
+            #o input{
+                width: 80%;
+            }
+
+            #o button {
+                margin: 10px;
+            }
+        }
+        </style>
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<div id="WebpageName">
+                    <p><h1>Photos by<span class="highlight"> Pratik</span></h1></p>
+				</div>
+			</div>
+		</header>
+
+    <section id="Main">
+        <div class="container" >
+            <form action="./scripts/checkadminlogin.php" method="post">
+                <div class="container1">
+                    <h1 id="h" style="font-size: x-large; color: white; border-radius: 10px;">ADMIN LOGIN</h1>
+                    <p id="o" style="text-align: center; border-radius: 10px;">
+                        <input type="email" style=" width:95%; border-radius: 5px;" placeholder="Enter your email" required name="mail"><br><br>
+                        
+                        <input style="width:95%; border-radius: 5px;" type="password"placeholder="Enter your password" required name="password" 
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                            title="Must contain at least one  number and one
+                             uppercase and lowercase letter, and at least 8 or more characters"><br><br>
+                        
+                        <button type="submit" class="button_1" style="width: 130px; margin-right: 20px ">Log In</button> &nbsp;
+                    </p> 
+                </div>
+            </form>
+         </div>
+
+        <div class="container">
+            <a href="index.html" style="font-size: x-small; font-weight:6300; color: white; text-decoration: none;">User Login? <span style="color: red;"> Click Here.</span> </a>
+        </div>
+        </section>
+        
+        <footer>Photos by Pratik, Copyright &copy; 2020</footer>
+	</body>
+</html>
