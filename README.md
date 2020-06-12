@@ -17,5 +17,3 @@ Clone the repository and follow these steps:
 
 You can find my site at: https://photos-by-pratik.000webhostapp.com/
 
-### Demo Site
-* [Solution](https://pratiknesarkar99.github.io/photosbypratik/index.html)
