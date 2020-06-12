@@ -15,5 +15,6 @@ Clone the repository and follow these steps:
 7. Open your browser and load the url (maybe a localhost url).
 8. you can even host the site on a server, like https://www.000webhost.com/
 
-You can find my site at: https://photos-by-pratik.000webhostapp.com/
+### You can find my site at: 
+* [https://photosbypratik.com](https://photos-by-pratik.000webhostapp.com/)
 
