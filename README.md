@@ -16,3 +16,6 @@ Clone the repository and follow these steps:
 8. you can even host the site on a server, like https://www.000webhost.com/
 
 You can find my site at: https://photos-by-pratik.000webhostapp.com/
+
+### Demo Site
+* [Solution](https://pratiknesarkar99.github.io/photosbypratik/index.html)
